@@ -1,0 +1,92 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    background-color: #71B51E;
+    width: 100%;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+img {
+    display: block;
+    width: 100%;
+    max-width:100%;    
+}
+.container {
+    width: 100%;
+    margin: auto;
+}
+.main-header{
+    text-align: center;
+}
+.logo{
+    width: 100%;
+    object-fit: scale-down;
+    height: 300px;
+}
+.title__input {
+    color: white;
+    text-align: center;
+}
+.img__title {
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+.img__input{
+    width: 100%;
+    object-fit:scale-down;
+    height: 300px;
+    margin: 10px;
+}
+/*-----------Estilos del Menú------------*/
+.main-nav {
+    width: 100%;
+    position: relative;
+    z-index: 2000;
+    padding: 10px;
+}
+.icon-menu {
+    display: block;
+    color: white;
+    border: 1px solid white;
+    border-radius: 3px;
+    width: 40px;
+    height: 40px;
+    line-height: 42px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 1.5em
+}
+.menu {
+    top: 60px;
+    left: 0;
+    width: 100%;
+    background: rgba(0,0,0,0.8);
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+    height: 0;
+    overflow: hidden;
+    transition: height .2s linear;
+    color: white;
+}
+.menu__link {
+    display: block;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+}
+.menu__link:hover {
+    background: rgba(101, 210, 243,0.5);
+}
+.menu__link--select{
+    background: rgba(101, 210, 243,0.5);
+    
+}
+.mostar {
+    height: 95px;
+}
